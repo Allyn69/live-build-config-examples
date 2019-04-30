@@ -17,7 +17,7 @@ apt-get install git live-build cdebootstrap -y
 
 # Clone the default Kali live-build config.
 
-git clone git://git.kali.org/live-build-config.git
+git clone https://gitlab.com/kalilinux/build-scripts/live-build-config.git
 
 # Let's begin our customisations:
 

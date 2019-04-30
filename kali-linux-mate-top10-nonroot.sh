@@ -18,7 +18,7 @@ apt-get install git live-build cdebootstrap devscripts -y
 
 # Clone the default Kali live-build config.
 
-git clone git://git.kali.org/live-build-config.git
+git clone https://gitlab.com/kalilinux/build-scripts/live-build-config.git
 
 # Get the source package of the debian installer. 
 # The default Kali preseed file lives here, and will need changing for non-root user support.
